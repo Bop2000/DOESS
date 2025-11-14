@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "doess"
 version = "0.1.0"
-description = "DAS-AI: Designing alloy from 100% scrap with multi-modal AI"
+description = "DOESS: Data-driven evOlutionary approach to Explore the Sequence Space"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
+    {name = "Yang Wang", email = "ywang.qt@gmail.com"},
     {name = "Bo Peng", email = "pengb21@mails.tsinghua.edu.cn"},
     {name = "Ye Wei", email = "ye.wei@cityu.edu.hk"},
 ]
@@ -19,20 +20,22 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8.5",
+    "Programming Language :: Python :: 3.10.18",
 ]
 
 dependencies = [
-    "numpy>=1.19.5",
-    "pandas>=1.4.4",
-    "matplotlib>=3.6.3",
-    "seaborn>=0.12.2",
-    "scikit-learn>=1.2.2",
-    "scipy>=1.10.1",
-    "tensorflow>=2.5.0",
+    "numpy>=1.24.3",
+    "pandas>=2.3.1",
+    "matplotlib>=3.10.5",
+    "seaborn>=0.13.2",
+    "scikit-learn>=1.7.1",
+    "scipy>=1.15.3",
+    "tensorflow>=2.11.0",
     "pytest>=7.3.1",
-    "tqdm>=4.65.0",
-    "openpyxl>=3.1.2",
+    "tqdm>=4.67.1",
+    "openpyxl>=3.1.5",
+    "ray>=2.48.0",
+    "qutip>=5.2.0",
 ]
 
 [project.optional-dependencies]
@@ -42,10 +45,10 @@ dev = [
     "jupyter>=1.0.0",
 ]
 [project.urls]
-"Homepage" = "https://github.com/Bop2000/DAS-AI"
+"Homepage" = "https://github.com/Bop2000/DOESS"
 
 [tool.setuptools]
-packages = ["das_ai"]
+packages = ["doess"]
 
 [tool.setuptools.package-data]
-das_ai = ["LICENSE", "README.md"]
+doess = ["LICENSE", "README.md"]
