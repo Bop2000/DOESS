@@ -15,7 +15,6 @@ from doess.objective_func import HamEngineering
 from doess.neural_surrogate import IndicatorSurrogateModel
 from doess.tree_exploration import TreeExploration
 
-
 # Define parameters
 NUM_DIMENSIONS = 24
 NUM_INITIAL_SAMPLES = 2000
@@ -25,7 +24,6 @@ NUM_ACQUISITIONS = 10000
 seed = 1
 random.seed(1)
 np.random.seed(1)
-
 
 
 ############### Generate initial samples or Load pre-generated data #################
@@ -69,7 +67,6 @@ Attributes for IndicatorSurrogateModel:
     batch_size (int): The number of samples per gradient update.
     epochs (int): The number of epochs to train the model.
     patience (int): Number of epochs with no improvement after which training will be stopped.
-    models (dict): Load all trained models and store in the dict "models".
 """
 # create a file to save model prediction results and model performance
 pd.DataFrame(np.empty(0)).to_csv(path1 +'/model_performance.csv') 
