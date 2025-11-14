@@ -3,7 +3,7 @@ requires = ["setuptools>=75.1.0", "wheel>=0.44.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "das_ai"
+name = "doess"
 version = "0.1.0"
 description = "DAS-AI: Designing alloy from 100% scrap with multi-modal AI"
 readme = "README.md"
