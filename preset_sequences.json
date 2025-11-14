@@ -1,0 +1,44 @@
+{   
+    "preset_sequences": {
+        "xy8":[
+            "+X,pi",  "null",  "+Y,pi",  "null",  "+X,pi",  "null",  "+Y,pi",  
+            "null",  
+            "+Y,pi",  "null",  "+X,pi",  "null",  "+Y,pi",  "null",  "+X,pi",
+            "null"
+        ],
+
+        "droid48": [
+            "+X,pi",  "+X,pi/2;-Y,pi/2",  "-X,pi",  "-X,pi",  "+X,pi",  "+X,pi/2;-Y,pi/2",  "-X,pi",  "-X,pi",
+
+            "+X,pi",  "+X,pi/2;-Y,pi/2",  "-X,pi",  "-X,pi",  "-Y,pi",  "-Y,pi/2;+X,pi/2",  "+Y,pi",  "+Y,pi",
+
+            "-Y,pi",  "-Y,pi/2;+X,pi/2",  "+Y,pi",  "+Y,pi",  "-Y,pi",  "-Y,pi/2;+X,pi/2",  "+Y,pi",  "+Y,pi",
+
+            "-Y,pi",  "+X,pi/2;+Y,pi/2",  "+Y,pi",  "-Y,pi",  "-Y,pi",  "+X,pi/2;+Y,pi/2",  "+Y,pi",  "-Y,pi",
+
+            "-Y,pi",  "+X,pi/2;+Y,pi/2",  "+Y,pi",  "-X,pi",  "-X,pi",  "+Y,pi/2;+X,pi/2",  "+X,pi",  "-X,pi",
+
+            "-X,pi",  "+Y,pi/2;+X,pi/2",  "+X,pi",  "-X,pi",  "-X,pi",  "+Y,pi/2;+X,pi/2",  "+X,pi",  "-Y,pi" 
+        ],
+
+        "droid24": [
+            "-Y,pi",  "+Y,pi/2",  "+X,pi",  "-X,pi/2",  "+Y,pi",  "-Y,pi/2",  "+X,pi",  "-X,pi/2",
+            "+Y,pi",  "+Y,pi/2",  "+X,pi",  "+X,pi/2",  "+Y,pi",  "+Y,pi/2",  "-X,pi",  "+X,pi/2",
+            "-Y,pi",  "-Y,pi/2",  "+X,pi",  "+X,pi/2",  "+Y,pi",  "+Y,pi/2",  "+X,pi",  "-X,pi/2"
+        ],
+
+        "droid_r2d2": [
+            "-X,pi",  "-X,pi/2;+Y,pi/2",  "-X,pi",  "-X,pi/2;+Y,pi/2",  "+X,pi",  "+X,pi/2;-Y,pi/2",  "-X,pi",  "-X,pi/2;+Y,pi/2",
+
+            "-X,pi",  "-X,pi/2;+Y,pi/2",  "-X,pi",  "-X,pi/2;+Y,pi/2",  "+X,pi",  "+X,pi/2;-Y,pi/2",  "-X,pi",  "-X,pi/2;+Y,pi/2",
+
+            "-X,pi",  "-X,pi/2;+Y,pi/2",  "-X,pi",  "-X,pi/2;+Y,pi/2",  "+X,pi",  "+X,pi/2;-Y,pi/2",  "-X,pi",  "-X,pi",
+
+            "+X,pi",  "-Y,pi/2;-X,pi/2",  "-X,pi",  "+Y,pi/2;+X,pi/2",  "+X,pi",  "+Y,pi/2;+X,pi/2",  "+X,pi",  "+Y,pi/2;+X,pi/2",
+
+            "+X,pi",  "-Y,pi/2;-X,pi/2",  "-X,pi",  "+Y,pi/2;+X,pi/2",  "+X,pi",  "+Y,pi/2;+X,pi/2",  "+X,pi",  "+Y,pi/2;+X,pi/2",
+
+            "+X,pi",  "-Y,pi/2;-X,pi/2",  "-X,pi",  "+Y,pi/2;+X,pi/2",  "+X,pi",  "+Y,pi/2;+X,pi/2",  "+X,pi",  "+Y,pi"
+        ]
+    }
+}
