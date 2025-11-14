@@ -26,16 +26,18 @@ This package is supported for *Linux* and *Windows*. The package has been tested
 
 ```
 dependencies = [
-    "numpy>=1.19.5",
-    "pandas>=1.4.4",
-    "matplotlib>=3.6.3",
-    "seaborn>=0.12.2",
-    "scikit-learn>=1.2.2",
-    "scipy>=1.10.1",
-    "tensorflow>=2.5.0",
+    "numpy>=1.24.3",
+    "pandas>=2.3.1",
+    "matplotlib>=3.10.5",
+    "seaborn>=0.13.2",
+    "scikit-learn>=1.7.1",
+    "scipy>=1.15.3",
+    "tensorflow>=2.11.0",
     "pytest>=7.3.1",
-    "tqdm>=4.65.0",
-    "openpyxl>=3.1.2",
+    "tqdm>=4.67.1",
+    "openpyxl>=3.1.5",
+    "ray>=2.48.0",
+    "qutip>=5.2.0",
 ]
 ```
 
