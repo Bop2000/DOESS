@@ -55,8 +55,8 @@ def get_initial_points(
 
     mask = np.all(y2 < threshold_array, axis=1)
     valid_indices = np.where(mask)[0]
-    print(f"找到 {len(valid_indices)} 行满足所有阈值条件")
-    print("前10个满足条件的行索引:", valid_indices[:10])
+    print(f"Found {len(valid_indices)} rows meeting all threshold conditions")
+    print("First 10 row indices meeting conditions:", valid_indices[:10])
     x_valid = x[valid_indices]
     y_valid = y[valid_indices]
     
